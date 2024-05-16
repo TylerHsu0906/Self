@@ -194,6 +194,21 @@ body footer section.link a img {
     height: 30vw;
   }
 }
+@media screen and (max-height: 1000px) {
+  body header section.logo {
+    flex-direction: column;
+  }
+  body header section.logo img {
+    width: 20vw;
+    height: 20vw;
+  }
+  body header nav ul {
+    flex-direction: column;
+  }
+  body header nav ul li {
+    padding: 0.5rem 0.25rem;
+  }
+}
 /* 普通樣式 */
 /* width */
 ::-webkit-scrollbar {

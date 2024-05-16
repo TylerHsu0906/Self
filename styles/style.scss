@@ -237,6 +237,28 @@ body {
   }
 }
 
+@media screen and (max-height: 1000px) {
+  body {
+    header {
+      section.logo {
+        flex-direction: column;
+        img {
+          width: 20vw;
+          height: 20vw;
+        }
+      }
+      nav {
+        ul {
+          flex-direction: column;
+          li {
+            padding: 0.5rem 0.25rem;
+          }
+        }
+      }
+    }
+  }
+}
+
 /* 普通樣式 */
 
 /* width */
